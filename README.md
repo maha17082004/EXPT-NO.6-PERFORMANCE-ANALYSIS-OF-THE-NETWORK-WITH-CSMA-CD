@@ -1,3 +1,6 @@
+
+# DATE:20/08/25
+# PERFORMANCE ANALYSIS OF THE NETWORK WITH CSMA/CD
 # AIM
 
 To write an NS2 program to observe the performance of the network with Carrier Sense Multiple Access/Collision Detection.
@@ -23,7 +26,7 @@ STEP 17: In the definition of the finish procedure declare the global variables.
 STEP 20: Stop the program.
  
 # PROGRAM
-
+```
 #Lan simulation – mac.tcl setns [new Simulator] #define color for data flows
 $ns color 1 blue
 $ns color 2 red
@@ -79,11 +82,10 @@ $nsat 7.0 "$ftp stop"
 $ns at 7.5 "$cbr stop"
 $ns at 8.0 "finish"
 $ns run
- 
+ ```
 # OUTPUT
 
-
-
+![WhatsApp Image 2025-11-16 at 20 48 26_25fbb4ee](https://github.com/user-attachments/assets/d7fd5de1-ccf0-4738-9de1-265d509949e8)
 
 # RESULT
 
